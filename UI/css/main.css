@@ -1,0 +1,30 @@
+@import url("./base/button.css");
+@import url("./base/select.css");
+@import url("./base/input.css");
+
+body {
+  font-family: MISAGoogleSans;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.right-container {
+  width: 100%;
+}
+
+.required {
+  display: inline-block;
+}
+.required::after {
+  content: "*";
+  color: #dc3545;
+  margin-left: 5px;
+}
+
+@font-face {
+  font-family: MISAGoogleSans;
+  src: url("../content/font/GoogleSans-Regular.otf");
+}

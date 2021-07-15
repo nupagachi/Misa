@@ -1,0 +1,29 @@
+.header {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+} 
+.header-left .restaurant {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.header-left img {
+  width:13px
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-right .usename {
+  margin: 0 16px;
+  font-weight: 500;
+}
+.header-right img {
+  width: 24px;
+}

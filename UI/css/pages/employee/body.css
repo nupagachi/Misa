@@ -1,0 +1,104 @@
+.content {
+  display: block;
+  margin: 10px 10px;
+}
+.content-header {
+}
+.content-header-title {
+  display: flex;
+  justify-content: space-between;
+}
+.content-header-title .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.content-header-option {
+  display: flex;
+  justify-content: space-between;
+}
+.content-header-option .option-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-right {
+  display: flex;
+  align-items: center;
+}
+.option-right button {
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.content-header-option .option-1 {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.content-header-option .option-2 {
+  margin-right: 16px;
+}
+
+.content-body .content-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.content-body .content-table td,
+.content-body .content-table th {
+  padding: 8px;
+}
+.content-body .content-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.content-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.table-header{
+border-bottom: 1px solid #ccc;
+}
+.table-header:hover {
+  background-color: #ffffff !important;
+}
+.content-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #000;
+}
+.paging {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.paging-middle {
+  display: flex;
+  align-items: center;
+}
+.button-page {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px;
+  width: 24px;
+  height: 24px;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+.active-button {
+  background-color: #019160;
+  color: #ffffff;
+  cursor: pointer;
+}
+.active-button:hover {
+  background-color: #019160 !important;
+  color: #ffffff !important;
+}
+.button-page:hover {
+  background-color: #ffffff;
+}

@@ -1,0 +1,44 @@
+.menu {
+  height: 100vh;
+  background-color: #ffffff;
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+.menu-top {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 199px;
+  padding-left: 16px;
+}
+.toggle img {
+  height: 24px;
+  margin-right: 10px;
+}
+.logo img {
+  height: 20px;
+  width: 130px;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  padding-left: 16px;
+}
+.active {
+  background-color: #019160;
+  color: #ffffff
+}
+.active:hover {
+  background-color: #019160 !important;
+  color: #ffffff !important
+}
+.item-menu:hover {
+  background-color: #e5e5e5;
+  color: #000000;
+  font-style: Regular;
+}
+.item-menu img {
+  width: 24px;
+}

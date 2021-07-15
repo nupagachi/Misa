@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Phần mềm quản lý nhà hàng - CUKCUK.VN</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/pages/employee/header.css" />
+    <link rel="stylesheet" href="../css/pages/employee/menu.css" />
+    <link rel="stylesheet" href="../css/pages/employee/body.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-top">
+          <div class="toggle">
+            <img src="../content/img/toggle.png" />
+          </div>
+          <div class="logo">
+            <img src="../content//cukcuk-logo.png" />
+          </div>
+        </div>
+        <div class="list-item-menu">
+          <div class="item-menu active">
+            <img src="../content/icon/dashboard.png" alt="" />
+            <div class="item-name">Tổng quan</div>
+          </div>
+          <div class="item-menu">
+            <img src="../content/icon/report.png" alt="" />
+            <div class="item-name">Báo cáo</div>
+          </div>
+          <div class="item-menu">
+            <img src="../content/icon/dashboard.png" alt="" />
+            <div class="item-name">Mua hàng</div>
+          </div>
+          <div class="item-menu">
+            <img src="../content/icon/dic-employee.png" alt="" />
+            <div class="item-name">Danh mục nhân viên</div>
+          </div>
+          <div class="item-menu">
+            <img src="../content/icon/dic-employee.png" alt="" />
+            <div class="item-name">Danh mục nhân viên</div>
+          </div>
+          <div class="item-menu">
+            <img src="../content/icon/setting.png" alt="" />
+            <div class="item-name">Thiết lập hệ thống</div>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="header">
+          <div class="header-left">
+            <div class="restaurant">Nhà hàng Biển Đông</div>
+            <img src="../content/icon/arrow-down.png" alt="" />
+          </div>
+          <div class="header-right">
+            <img src="../content/icon/avatar-default.png" />
+            <div class="usename">Nguyễn Văn Mạnh</div>
+            <img src="../content/icon/option.png" />
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-header">
+            <div class="content-header-title">
+              <div class="title">Danh sách nhân viên</div>
+              <button class="button">Thêm nhân viên</button>
+            </div>
+            <div class="content-header-option">
+              <div class="option-left">
+                <div class="option-1">
+                  <input
+                    class="input-search"
+                    type="text"
+                    name="search"
+                    placeholder="Tìm kiếm theo Mã,Tên hoặc Số điện thoại"
+                  />
+                </div>
+                <div class="option-2">
+                  <select class="select" name="">
+                    <option value="australia">Tất cả phòng ban</option>
+                    <option value="canada">Phòng nhân sự</option>
+                    <option value="usa">Phòng công nghệ</option>
+                    <option value="usa">Phòng marketing</option>
+                  </select>
+                </div>
+                <div class="option-3">
+                  <select class="select" name="">
+                    <option value="australia">Tất cả vị trí</option>
+                    <option value="canada">Giám đốc</option>
+                    <option value="usa">Thu ngân</option>
+                    <option value="usa">Nhân viên marketing</option>
+                  </select>
+                </div>
+              </div>
+              <div class="option-right">
+                <button><img src="../content/icon/refresh.png" /></button>
+              </div>
+            </div>
+          </div>
+          <div class="content-body">
+            <table class="content-table">
+              <tr class="table-header">
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Berglunds snabbköp</td>
+                <td>Christina Berglund</td>
+                <td>Sweden</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Königlich Essen</td>
+                <td>Philip Cramer</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+              <tr>
+                <td>North/South</td>
+                <td>Simon Crowther</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Paris spécialités</td>
+                <td>Marie Bertrand</td>
+                <td>France</td>
+              </tr>
+            </table>
+            <div class="paging">
+              <div class="paging-left">Hiển thị 1-10/1000 nhân viên</div>
+              <div class="paging-middle">
+                <img src="../content/icon/btn-firstpage.svg" alt="" />
+                <img src="../content/icon/btn-prev-page.svg" alt="" />
+                <button class="button-page active-button">1</button>
+                <button class="button-page">2</button>
+                <button class="button-page">3</button>
+                <button class="button-page">4</button>
+                <img src="../content/icon/btn-next-page.svg" alt="" />
+                <img src="../content/icon/btn-lastpage.svg" alt="" />
+              </div>
+              <div class="paging-right">10 nhân viên/trang</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

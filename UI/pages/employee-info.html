@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="../css/pages/employee-info/employee-info.css"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <h2>Animated Modal with Header and Footer</h2>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <div>Thông tin nhân viên</div>
+        </div>
+        <div class="modal-body">
+          <div class="body-left">
+            <img src="../content/img/default-avatar.jpg" alt="" />
+            <div>(Vui lòng chọn ảnh đúng định dạng .jpg,.jpeg,.png,.gif)</div>
+          </div>
+          <div class="body-right">
+            <div class="info-manual">
+              <div class="title">
+                <span>A.Thông tin chung</span>
+              </div>
+              <div class="form-control">
+                <div class="columnA">
+                  <div class="element">
+                    <div class="label required">Mã nhân viên</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label">Ngày sinh</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label required">Số CMTND/ Căn cước</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label">Nơi cấp</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label required">Email</div>
+                    <input class="inputModal" />
+                  </div>
+                </div>
+                <div class="columnA">
+                  <div class="element">
+                    <div class="label required">Họ và tên</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label">Giới tính</div>
+                    <!-- <input class="inputModal" /> -->
+                    <select class="selectCustomT" name="">
+                      <option value="nam">Nam</option>
+                      <option value="nu">Nữ</option>
+                    </select>
+                  </div>
+                  <div class="element">
+                    <div class="label">Ngày cấp</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="labelSpecial">A</div>
+                    <input class="inputModalSpecial" disabled />
+                  </div>
+                  <div class="element">
+                    <div class="label required">Số điện thoại</div>
+                    <input class="inputModal" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-work">
+              <div class="title">
+                <span>B.Thông tin công việc</span>
+              </div>
+              <div class="form-control">
+                <div class="columnA">
+                  <div class="element">
+                    <div class="label required">Vị trí</div>
+                    <!-- <input class="inputModal" /> -->
+                    <select class="selectCustomT" name="">
+                      <option value="tgd">Tổng giám đốc</option>
+                      <option value="ct">Chủ tịch HĐQT</option>
+                      <option value="pt">Phó tổng</option>
+                    </select>
+                  </div>
+                  <div class="element">
+                    <div class="label">Mã số thuế cá nhân</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label required">Ngày gia nhập công ty</div>
+                    <input class="inputModal" />
+                  </div>
+                </div>
+                <div class="columnA">
+                  <div class="element">
+                    <div class="label required">Phòng ban</div>
+                    <!-- <input class="inputModal" /> -->
+                    <select class="selectCustomT" name="">
+                      <option value="all">Tất cả phòng ban</option>
+                      <option value="pns">Phòng nhân sự</option>
+                      <option value="pcn">Phòng công nghệ</option>
+                      <option value="pmt">Phòng marketing</option>
+                    </select>
+                  </div>
+                  <div class="element">
+                    <div class="label">Mức lương cơ bản</div>
+                    <input class="inputModal" />
+                  </div>
+                  <div class="element">
+                    <div class="label">Tình trạng công việc</div>
+                    <!-- <input class="inputModal" /> -->
+                    <select class="selectCustomT" name="">
+                      <option value="tn">Thất nghiệp</option>
+                      <option value="dlv">Đang làm việc</option>
+                      <option value="dtv">Đã thôi việc</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btnCancel">Hủy</button>
+            <button class="button">Lưu</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      modal.style.display = "block";
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        console.log("vao 1");
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        console.log("vao 2");
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          console.log("vao 3");
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
