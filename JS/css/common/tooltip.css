@@ -1,0 +1,24 @@
+.tooltipMgs {
+    width: 135px;
+    background-color: #ff4747;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    left: 20%;
+}
+
+.tooltipMgs #triangle-down {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 96%;
+    left: 44%;
+    border-top: 9px solid #ff4747;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}

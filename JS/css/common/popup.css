@@ -1,0 +1,116 @@
+.general-popup {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    z-index: 6;
+}
+
+.popup {
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    width: 400px;
+    margin: auto;
+    margin-top: 14%;
+}
+
+.popup .xpop {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33px;
+    height: 33px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xpop button {
+    border: none;
+    background-color: #fff;
+}
+
+.title-pop {
+    padding: 0;
+    padding-right: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-pop {
+    display: flex;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.content-pop .icon-pop {
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    width: 46px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    margin-top: 6px;
+}
+
+.content-pop .notification-pop {
+    font-size: 13px;
+}
+
+.icon-pop img {
+    width: 70%;
+    height: 50%;
+}
+
+.btn-pop {
+    height: 60px;
+    text-align: end;
+    padding: 10px 24px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+    border-radius: 0 0 5px 5px;
+    z-index: 1;
+    position: relative;
+}
+
+.btn-pop .btn1-pop {
+    margin-right: 16px;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #f4f4f4;
+}
+
+.btn-pop .btn1-pop:hover {
+    background-color: #e5e5e5;
+}
+
+.btn-pop .btn2-pop {
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+.delete-pop {
+    background-color: #f65454!important;
+}
+
+.delete-icon-pop {
+    color: #f65454!important;
+}
+
+.primary-pop {
+    background-color: #01B075!important;
+}

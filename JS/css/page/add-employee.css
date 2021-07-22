@@ -1,0 +1,266 @@
+/* responsive for form add employee */
+
+@media (max-width: 768px) {
+    .add-emp {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .add-emp {
+        max-width: 720px;
+    }
+}
+
+
+/* css for form */
+
+.add-item {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+}
+
+.cover-background {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+    /* z-index: 1; */
+}
+
+.add-emp {
+    width: 100%;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 40%);
+    padding: 15px 0 0 0;
+    border-radius: 5px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    margin: auto;
+    margin-top: 3.5%;
+    height: calc(100vh - 33px);
+    max-height: 730px;
+}
+
+.formadd {
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.formadd .image-account label {
+    width: 100%;
+    height: 136px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: -17px;
+}
+
+.formadd .image-account input {
+    visibility: hidden;
+}
+
+.formadd .image-account label img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    border: 1px solid #bbb;
+}
+
+.line {
+    border-top: 3px solid #01B075;
+    width: 105px;
+}
+
+.xform {
+    text-align: end;
+}
+
+.xform button {
+    border: none;
+    background-color: #fff;
+}
+
+.xform img:hover {
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 40%);
+}
+
+.title h6 {
+    font-size: 15px;
+}
+
+
+/* css input */
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.infoinput input {
+    width: 100%;
+    border: solid 1px #bbb;
+    border-radius: 4px;
+    padding: 6px;
+    height: 36px;
+    padding-right: 43px;
+}
+
+input[type=date] {
+    padding-right: 6px;
+}
+
+span {
+    color: red;
+}
+
+.infoinput .info {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    margin: 0;
+}
+
+.infoinput .xselect {
+    right: 43px;
+    top: 37px;
+    width: 20px;
+    height: 20px;
+}
+
+.infoinput .info .arrow-info {
+    height: 38px;
+    top: auto;
+    right: 16px;
+}
+
+.infoinput .info input {
+    height: 34px;
+    padding-right: 65px;
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    cursor: auto;
+}
+
+.infoinput .info .select-option {
+    width: calc(100% - 29px);
+    left: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.infoinput .info .select-option div {
+    padding: 5px 10px;
+}
+
+.infoinput .salary {
+    display: flex;
+    border-radius: 5px;
+    height: 34px;
+    align-items: center;
+}
+
+.infoinput .salary input {
+    direction: RTL;
+    width: 100%;
+    height: 36px;
+    padding-right: 40px;
+    padding-left: 35px;
+}
+
+.infoinput .salary p {
+    margin-top: 1.5px;
+    position: absolute;
+    right: 20px;
+}
+
+.infoinput .salary .xselect {
+    left: 23px;
+}
+
+.infoinput p {
+    margin-bottom: 1px;
+    margin-top: 9px;
+}
+
+.job-information {
+    margin-top: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* margin: 0; */
+}
+
+.invalid-input {
+    border: 1px solid red !important;
+}
+
+.input-focus {
+    border: 1px solid #019160 !important;
+}
+
+.infoinput .error {
+    color: red!important;
+}
+
+
+/* btn cancel - save */
+
+.cancel-save {
+    text-align: end;
+    margin-top: 14px;
+    padding: 10px 0;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.save,
+.update {
+    background-color: #019160;
+    font-size: 13px;
+    color: white;
+    font-weight: 450;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.save:hover {
+    background-color: #2FBE8E;
+}
+
+.cancel,
+.cancel-update {
+    border: none;
+    background-color: #e5e5e5;
+    font-weight: 500;
+    width: 85px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.cancel,
+.cancel-update:hover {
+    background-color: #e5e5e5;
+}
+
+
+/* common */
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combobox</title>
+    <link rel="stylesheet" href="../css/common/common.css">
+    <link rel="stylesheet" href="../css/page/employee.css?v=1.1">
+    <link rel="stylesheet" href="../css/page/add-employee.css?v=1.1">
+    <link rel="stylesheet" href="../lib/font/fontawesome-5.15.1/css/all.min.css?v=1.1">
+</head>
+
+<body>
+    <div class="infoinput">
+        <p>Phòng ban</p>
+        <div class="find-select find-formdepartment info">
+            <input name="" fieldName="DepartmentName" id="formdepartment" class="formdepartment infoinput select" placeholder="Chọn phòng ban" name="">
+            <div class="xselect"><i class="fas fa-times"></i></div>
+            <div class="select-option all-formdepartment" style="position: absolute;top: 80px;">
+            </div>
+            <div class="div-arrow arrow-info" id="findbyformdepartment">
+                <i class="fas fa-chevron-down arrow"></i>
+                <i class="fas fa-chevron-up arrow" style="font-size: 0;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src='../js/lib/jquery-3.6.0.min.js?v=1.1'></script>
+<script src='../js/lib/ajax.jquery.min.js?v=1.1'></script>
+<script src="../js/common/base.js"></script>
+<script src="../js/common/combobox.js"></script>
+<script src="../js/page/department.js"></script>
