@@ -1,0 +1,235 @@
+.box-infor-content {
+    position: absolute;
+    top: 49px;
+    left: 226px;
+    height: calc(900px - 49px - 49px);
+    z-index: 10;
+}
+
+.box-infor-content .content-private-infor {
+    /* display: flex; */
+}
+
+.content-private-infor-title {
+    padding-left: 10px;
+    height: 20px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 4px;
+    width: 75px;
+    background-color: #019160;
+    /* border-radius: 4px; */
+}
+
+.box-infor-content .content-private-infor .content-private-infor-ID {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.box-infor-content .content-private-infor .content-private-infor-ID .content-private-infor-ID-text span {
+    color: red;
+}
+
+.box-infor-content .content-private-infor .content-private-infor-ID .content-private-infor-ID-input {
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    height: 40px;
+    width: 200px;
+}
+
+.title-row {
+    display: flex;
+    width: 100%;
+}
+
+.title-row p {
+    flex-wrap: wrap;
+    width: 231px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.title-row span {
+    color: #F65454;
+}
+
+.title-row .col-1 {
+    margin-left: 10px;
+}
+
+.input-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.input-row input {
+    flex-wrap: wrap;
+    /* width: 204px; */
+    /* width: inherit; */
+    /* border: 1px solid #bbbbbb; */
+    border-radius: 5px;
+    height: 38px;
+    color: #000000;
+    font-family: GoogleSans-Regular;
+    outline: none;
+    padding-left: 16px;
+    /* margin-left: 8px; */
+}
+
+.input-row input:focus {
+    border-color: #019160;
+    color: #000;
+}
+
+.input {
+    padding-left: 16px;
+    margin-left: 8px;
+    width: 204px;
+    border: 1px solid #bbbbbb;
+    z-index: 0;
+}
+
+
+/* .input-row div {
+    flex-wrap: wrap;
+    display: flex;
+    width: 206px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 40px;
+    color: #000000;
+    font-family: GoogleSans-Regular;
+    outline: none;
+    padding-left: 16px;
+    margin-left: 8px;
+} */
+
+.col-1 {
+    margin-left: 10px;
+}
+
+.col-2 {
+    margin-left: 1px;
+}
+
+.calendar {
+    /* width: 179px; */
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    background-color: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 8px;
+    z-index: 9;
+}
+
+.department {
+    /* width: 179px; */
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    background-color: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 8px;
+    z-index: 20;
+}
+
+.day-supply {
+    margin-left: 8px;
+    z-index: 3;
+}
+
+
+/* .combobox-icon {
+    height: 42px;
+    width: auto;
+} */
+
+.calendar .fa-calendar {
+    float: right;
+    line-height: 40px;
+    /* width: 53px; */
+    align-items: center;
+    text-align: center;
+    /* margin-right: 20px; */
+}
+
+.calendar .fa-calendar:hover {
+    background-color: #bbb;
+}
+
+.calendar .fa-chevron-down {
+    float: right;
+    line-height: 40px;
+    /* width: 53px; */
+    align-items: center;
+    text-align: center;
+}
+
+.calendar .fa-chevron-down:hover {
+    background-color: #bbb;
+}
+
+.salary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 204px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    padding-left: 16px;
+    margin-left: 8px;
+}
+
+.salary-box span {
+    position: absolute;
+    right: 34px;
+    font-family: GoogleSans-Italic;
+    line-height: 42px;
+    /* z-index: 99; */
+}
+
+.salary input {
+    align-self: center;
+    border-radius: 4px;
+    height: 34px;
+    border: none;
+    width: 142px;
+    padding-left: 16px;
+    margin-left: 8px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .input {
+    padding-left: 16px;
+    margin-left: 8px;
+    border: 1px solid #bbbbbb;
+} */
+
+.salary input:hover {
+    border: none;
+}
+
+.salary:hover {
+    border-color: #019160;
+    color: #000;
+}
+
+.tax-z-index {
+    z-index: 0;
+}
+
+.salary-z-index {
+    z-index: 0;
+}
+
+.day-in {
+    z-index: 3;
+}

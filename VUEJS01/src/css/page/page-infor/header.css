@@ -1,0 +1,42 @@
+.box-infor-header {
+    display: flex;
+    height: 48px;
+    border-bottom: 1px;
+    width: 100%;
+}
+
+.box-infor-header .header-title {
+    line-height: 48px;
+    margin-left: 10px;
+    font-size: 22px;
+    /* color: blue; */
+}
+
+.box-infor-header .header-exit-icon {
+    position: absolute;
+    right: 8px;
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+.box-infor-header .header-exit-icon .fa-times {
+    align-self: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -5px;
+    margin-left: -5px;
+    ;
+}
+
+
+/* .box-infor-header .header-exit-icon i {
+    align-self: center;
+} */
+
+.box-infor-header .header-exit-icon:hover {
+    background-color: #bebebe;
+}

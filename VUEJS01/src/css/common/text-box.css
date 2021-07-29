@@ -1,0 +1,13 @@
+.text-box-default {
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-box-default:focus {
+    border-color: #019160;
+}

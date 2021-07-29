@@ -1,0 +1,69 @@
+﻿.navbar {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 100vh;
+    background-color: 0xffffff;
+    border-color: #e5e5e5;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.logo-page {
+    diplay: flex;
+    width: 100%;
+    height: 48px;
+}
+
+.toggle-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../assets/img/toggle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    bottom: 12px;
+}
+
+.cukcuk-logo {
+    width: calc(220px - 24px);
+    height: 24px;
+    background-image: url('../../assets/img/cukcuk-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12px;
+    left: calc(24px + 16px + 10px);
+}
+
+.navcontent {
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 16px;
+    height: 44px;
+    cursor: pointer;
+    line-height: 44px;
+}
+
+.nav-item:hover {
+    background-color: #e5e5e5;
+    color: #000000
+}
+
+.nav-item-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 8px;
+}

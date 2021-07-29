@@ -1,0 +1,402 @@
+﻿.content {
+  position: absolute;
+  top: 49px;
+  left: 221px;
+  width: calc(100% - 221px);
+  height: calc(100vh - 49px);
+  background-color: #e9ebee;
+}
+
+.content .content-title {
+  display: flex;
+  height: 55px;
+}
+
+.content .content-title .content-title-text {
+  position: absolute;
+  white-space: nowrap;
+  left: 10px;
+  font-size: 26px;
+  line-height: 55px;
+}
+
+.content-delete-employee-button {
+  position: absolute;
+  right: calc(142px + 16px + 8px);
+  height: 36px;
+  width: auto;
+  display: none;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.content-delete-employee-button .content-delete-employee-button-icon {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.content-delete-employee-button-text {
+  line-height: 36px;
+  padding-left: 40px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.content .content-title .content-add-employee-button {
+  position: absolute;
+  right: 16px;
+  height: 36px;
+  width: auto;
+  display: flex;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #019160;
+
+  cursor: pointer;
+}
+
+.content .content-title .content-add-employee-button:hover {
+  background-color: #2fbe8e;
+}
+
+.content
+  .content-title
+  .content-add-employee-button
+  .content-add-employee-button-icon {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.content
+  .content-title
+  .content-add-employee-button
+  .content-add-employee-button-text {
+  line-height: 36px;
+  padding-left: 40px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.content .content-option {
+  display: flex;
+  height: 54px;
+
+  margin-left: 10px;
+}
+
+.content .content-option .content-option-search-text {
+  display: flex;
+
+  color: #000;
+  border-color: #bbb;
+  height: 38px;
+  width: 260px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 0;
+  padding-left: 40px;
+  background-image: url("../../assets/icon/search.png");
+
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position-x: 16px;
+  background-position-y: center;
+  white-space: nowrap;
+  outline: none;
+}
+
+.content .content-option .content-option-search-text:focus {
+  border-color: #019160;
+}
+
+.content .content-option .content-option-workspace {
+  margin-left: 8px;
+
+  height: 40px;
+
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  align-items: center;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.content .content-option .content-option-workspace-icon:hover {
+  background-color: #bbb;
+}
+
+.content .content-option .content-option-workspace-icon {
+  height: 40px;
+}
+
+.content .content-option .content-option-workspace-icon .fa-chevron-down {
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 40px;
+}
+
+.content .content-option .content-option-workspace-text {
+  line-height: 40px;
+  padding-left: 16px;
+  white-space: nowrap;
+}
+
+.content .content-option .content-option-position {
+  margin-left: 16px;
+  height: 40px;
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.content
+  .content-option
+  .content-option-position
+  .content-option-position-text {
+  line-height: 40px;
+  padding-left: 16px;
+  white-space: nowrap;
+}
+
+.content
+  .content-option
+  .content-option-position
+  .content-option-position-icon {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content
+  .content-option
+  .content-option-position
+  .content-option-position-icon:hover {
+  background-color: #bbb;
+}
+
+.content .content-option .content-option-reload {
+  position: absolute;
+  right: 16px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../../assets/icon/refresh.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.content .content-option .content-option-reload:hover {
+  background-color: #bbb;
+}
+
+.content .grid {
+  width: calc(100% - 26px);
+  height: calc(100vh - 159px - 55px);
+  margin-left: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: scroll;
+  z-index: 0;
+}
+
+.content .grid .grid-header {
+  width: calc(100% - 16px - 8px);
+}
+
+.content .grid .grid-body {
+  width: calc(100% - 16px - 8px);
+  height: calc(100vh - 204px - 55px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  color: #888;
+}
+
+table {
+  border: none;
+  table-layout: fixed;
+  min-width: calc(100%);
+  height: calc(100vh - 204px - 55px -55px);
+  background-color: #fff;
+  border: 0;
+  z-index: 0;
+}
+
+.thead-table {
+  background-color: #ffffff;
+}
+
+table tr:hover {
+  background-color: #bbb;
+}
+
+table tr td {
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  text-align: left;
+  padding: 10px 16px;
+  height: 48px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 50px;
+  cursor: pointer;
+}
+
+table tr th {
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  text-align: left;
+  padding: 10px 16px;
+  height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #ffffff;
+  z-index: 0;
+}
+
+th {
+  position: sticky;
+  top: 0;
+}
+
+table tr:nth-child(even):hover {
+  background-color: #bbb;
+}
+
+.content .paging-bar {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.content .paging-bar .paging-bar-note-left {
+  left: 16px;
+  line-height: 56px;
+}
+
+.content .paging-bar .paging-bar-note-right {
+  right: 16px;
+  line-height: 40px;
+  height: 40px;
+  align-self: center;
+}
+
+.content .paging-bar .paging-bar-btn {
+  left: 50%;
+  height: 56px;
+  width: auto;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto 0;
+  flex-basis: calc(100vh - 221px);
+}
+
+.content .paging-bar .paging-bar-btn-page-number {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #bbb;
+  background-color: #e9ebee;
+  border-radius: 50%;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.content .paging-bar .paging-bar-btn-page-number:hover {
+  background-color: #bbb;
+}
+
+.content .paging-bar .paging-bar-btn .paging-bar-btn-first-page {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.content .paging-bar .paging-bar-btn .paging-bar-btn-prev-page {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.content .paging-bar .paging-bar-btn .paging-bar-btn-next-page {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.content .paging-bar .paging-bar-btn .paging-bar-btn-last-page {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.content .paging-bar .page-number-one {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #bbb;
+  background-color: #019160;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 34px;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.page-number:active {
+  background-color: #01b075;
+}

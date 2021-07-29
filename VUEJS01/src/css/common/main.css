@@ -1,0 +1,31 @@
+﻿    @import url(../common/text-box.css);
+    @import url(../common/button.css);
+    body {
+        font-family: GoogleSans-Regular;
+        font-size: 13px;
+        margin: 0px;
+    }
+    
+    @font-face {
+        font-family: 'GoogleSans-Regular';
+        src: url('../../assets/font/GoogleSans-Regular.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'GoogleSans-Bold';
+        src: url('../../assets/font/GoogleSans-Bold.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'GoogleSans-Italic';
+        src: url('../../assets/font/GoogleSans-Italic.otf') format('opentype');
+    }
+    
+    @font-face {
+        font-family: 'GoogleSans-Light';
+        src: url('../../assets/font/GoogleSans-Light.otf') format('opentype');
+    }
+    
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        padding-right: 20px;
+    }

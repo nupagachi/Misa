@@ -1,0 +1,31 @@
+.wrap {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    overflow: scroll;
+    overflow-x: auto;
+    overflow-y: auto;
+    z-index: 40;
+}
+
+.box-infor {
+    height: 900px;
+    width: 700px;
+    background-color: #fff;
+    /* align-items: center; */
+    /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -450px;
+    margin-right: -350px;
+    z-index: 40;
+}

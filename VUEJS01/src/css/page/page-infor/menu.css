@@ -1,0 +1,22 @@
+.box-infor-avatar {
+    width: 225px;
+    height: calc(900px - 49px - 48px);
+    border-right: 1px;
+}
+
+.box-infor-avatar .avatar-image {
+    width: 150px;
+    height: 150px;
+    background-image: url("../../../content/img/default-avatar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* margin-top: 10px; */
+    margin-left: 33px;
+    border-radius: 100%;
+    border: 1px solid #bbb;
+}
+
+.box-infor-avatar .avatar-note {
+    text-align: center;
+}
