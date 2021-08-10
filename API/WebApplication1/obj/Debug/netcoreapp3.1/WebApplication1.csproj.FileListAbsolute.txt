@@ -1,0 +1,5 @@
+D:\Work\SourceBMB\API_CUKCUK_MISA\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.AssemblyReference.cache
+D:\Work\SourceBMB\API_CUKCUK_MISA\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+D:\Work\SourceBMB\API_CUKCUK_MISA\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+D:\Work\SourceBMB\API_CUKCUK_MISA\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+D:\Work\SourceBMB\API_CUKCUK_MISA\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
